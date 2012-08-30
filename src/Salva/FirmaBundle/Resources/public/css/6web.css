@@ -1,0 +1,16 @@
+#main {
+
+width: 500px;
+margin: 0 auto;
+padding: 30px;
+border: 1px solid #000;
+height: 300px;
+background: #C0C0C0;
+}
+
+
+#main img {
+display: block;
+margin: 0 auto;
+}
+

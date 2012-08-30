@@ -1,0 +1,21 @@
+<html>
+<head>
+{% javascripts
+    '@SalvaFirmaBundle/Resources/public/js/*' output='js/compiled/main.js'
+%}
+    <script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+
+<link rel="stylesheet" href="{{ asset('/bundles/salvafirma/css/6web.css') }}" type="text/css" media="all" />
+
+</head>
+<body>
+
+<div id="main">
+<img src="{{ asset('/bundles/salvafirma/images/logo-6web.pl.png') }}" />
+<br/>
+id = {{ app.request.attributes.get('id=','none') }}
+Hello {{ name }}!
+</div>
+</body>
+</html>
